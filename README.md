@@ -1,5 +1,5 @@
 ### Hi there 👋welcome to mainas profile 
-- 😄 Pronouns: him
+- Pronouns: him
 
 👀 I'm passionate about backend development and strive to become an indispensable software engineer.
 🌱 I’m currently pursing a Bachelors course in Information Technology in JKUAT and a Software Engineering programme from ALX
