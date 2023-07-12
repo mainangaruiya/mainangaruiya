@@ -11,3 +11,4 @@
 - 🤔 I’m looking for help with pyhon ,c html,css and js.
 - Languages
 -  c css3 git html5 javascript linux python 
+![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/2e5d0a9e-74fc-43d1-b3fe-9bfdb08dad5c)
