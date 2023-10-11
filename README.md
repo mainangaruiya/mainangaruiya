@@ -5,7 +5,8 @@
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya" alt="mainangaruiya" /></a> </p>
 
-<p align="left"> <a href="https://twitter.com/" target="blank"><img src="https://img.shields.io/twitter/follow/?logo=twitter&style=for-the-badge" alt="" /></a> </p>
+![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4)
+
 
 - 🔭 I’m currently working on **na**
 
