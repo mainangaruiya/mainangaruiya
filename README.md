@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Maina Ngaruiya</h1>
-<h3 align="center">A passionate full stack developer from kenya India</h3>
+<h3 align="center">A passionate full stack developer from kenya </h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=mainangaruiya&label=Profile%20views&color=0e75b6&style=flat" alt="mainangaruiya" /> </p>
 
@@ -14,8 +14,6 @@
 - 👯 I’m looking to collaborate on **in python and data science**
 
 - 🤝 I’m looking for help with **react and django**
-
-- 👨‍💻 All of my projects are available at [github.com/mainangaruiya](github.com/mainangaruiya)
 
 - 💬 Ask me about **python js c and ruby**
 
