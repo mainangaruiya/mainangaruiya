@@ -15,7 +15,7 @@
 - 💬 Ask me about **python js c and ruby**
 
 <h3 align="left">Connect with me:</h3>
-- 📫 How to reach me **003paulmaina@gmail.com**
+- 📫 You can contact me via [email](mailto:003paulmaina@gmail.com).
 <p align="left">
 </p>
 
