@@ -2,7 +2,7 @@
 <h3 align="center">A passionate full stack developer from kenya </h3>
 
 ![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4)
-
+https://miro.medium.com/max/3840/1*J4Lkof6K3jZpKrxVXdy-Iw.jpeg
 
 - 🔭 I’m currently working on **python projects and react**
 
