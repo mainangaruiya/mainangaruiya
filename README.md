@@ -14,7 +14,7 @@
 
 - 💬 Ask me about **python js c and ruby**
 
-- - 📫 How to reach me **003paulmaina@gmail.com**
+- 📫 How to reach me **003paulmaina@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 
