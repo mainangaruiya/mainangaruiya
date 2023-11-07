@@ -5,11 +5,11 @@
 ![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/e8f400c7-53a4-46ad-b58f-eed9de258a35)
 
 
-- 🔭 I’m currently working on **python projects and react**
+- 🔭 I’m currently working on **python projects**
 
 - 🌱 I’m currently learning **in alx software engineering**
 
-- 👯 I’m looking to collaborate on **in python and data science**
+- 👯 I’m looking to collaborate on **in python projects**
 
 - 🤝 I’m looking for help with **react and django**
 
