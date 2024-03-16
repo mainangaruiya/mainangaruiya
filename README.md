@@ -1,8 +1,8 @@
 <h1 align="center">Hi 👋, I'm Maina Ngaruiya</h1>
+<img src="https://tryhackme-badges.s3.amazonaws.com/crypticmaina.png" alt="TryHackMe">
 <h3 align="center">A passionate full stack developer from kenya </h3>
 
 ![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4)
-![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/e8f400c7-53a4-46ad-b58f-eed9de258a35)
 
 
 - 🔭 I’m currently working on **python projects**
