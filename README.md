@@ -7,13 +7,13 @@
 
 - 🔭 I’m currently working on **python projects**
 
-- 🌱 I’m currently learning **in alx software engineering**
+- 🌱 I’m currently learning **through projects**
 
 - 👯 I’m looking to collaborate on **in python projects**
 
 - 🤝 I’m looking for help with **react and django**
 
-- 💬 Ask me about **python js c and ruby**
+- 💬 Ask me about **python js and c**
 
 - 📫 How to reach me **003paulmaina@gmail.com**
 
