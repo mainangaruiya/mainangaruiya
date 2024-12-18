@@ -5,7 +5,7 @@
 ![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4)
 
 
-- 🔭 I’m currently working on **python projects**
+- 🔭 I’m currently working on **portfolio projects**
 
 - 🌱 I’m currently learning **through projects**
 
