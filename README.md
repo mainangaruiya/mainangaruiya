@@ -5,13 +5,13 @@
 ![image](https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4)
 
 
-- 🔭 I’m currently working on **portfolio projects**
+- 🔭 I’m currently working on **portfolio projects and startups **
 
 - 🌱 I’m currently learning **through projects**
 
-- 👯 I’m looking to collaborate on **in python projects**
+- 👯 I’m looking to collaborate on **in backend projects* for startups*
 
-- 🤝 I’m looking for help with **react and django**
+- 🤝 I’m looking for help with **solidity**
 
 - 💬 Ask me about **python js and c**
 
