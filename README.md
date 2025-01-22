@@ -16,8 +16,7 @@
 - 💬 Ask me about **python js and c**
 
 - 📫 How to reach me **003paulmaina@gmail.com**
-- https://jnrdev-paulmaina.netlify.app/
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/d139d3be-17db-442e-9a9e-c226b2636f33/deploy-status)](https://app.netlify.com/sites/jnrdev-paulmaina/deploys)
+- https://jnrdev-paulmaina.netlify.app/ [![Netlify Status](https://api.netlify.com/api/v1/badges/d139d3be-17db-442e-9a9e-c226b2636f33/deploy-status)](https://app.netlify.com/sites/jnrdev-paulmaina/deploys)
 
 <h3 align="left">Connect with me:</h3>
 
