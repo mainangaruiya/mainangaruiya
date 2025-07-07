@@ -39,4 +39,3 @@
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya" alt="mainangaruiya" /></a> </p>
 
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mainangaruiya&" alt="mainangaruiya" /></p>
-<img src="https://tryhackme-badges.s3.amazonaws.com/crypticmaina.png" alt="TryHackMe">
