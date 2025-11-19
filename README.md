@@ -1,105 +1,106 @@
-<h1 align="center">Hi 👋, I'm Maina Ngaruiya</h1>
-<h3 align="center">Full-Stack Developer | Cybersecurity Enthusiast | Backend-Focused Engineer</h3>
+<h1 align="center">Hi 👋, I'm Paul Maina Ngaruiya</h1>
+<h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast • JavaScript Instructor</h3>
+
+<p align="center">
+  <a href="https://jnrdev-paulmaina.netlify.app">🌐 Portfolio</a> •
+  <a href="mailto:mainangaruiya17@gmail.com">📧 Email</a> •
+  <a href="https://www.linkedin.com/in/paul-ngaruiya">💼 LinkedIn</a>
+</p>
 
 ---
 
 ## 🚀 About Me
 
-- 🎯 Passionate about building **real-world applications**
-- 🧠 Always learning through **projects & experimentation**
-- 👨‍💻 Open to collaborating on **backend systems, startup MVPs, and automation tools**
-- 🧩 Seeking help with **Solidity & blockchain development**
-- 💬 Ask me about **Python, JavaScript, TypeScript, C, Node.js, Linux, Cybersecurity**
-- 🎓 **IT Background:** JKUAT — BSc in Information Technology  
-- 🛡️ Cybersecurity: TryHackMe, CTFs, IBM & Cisco certifications  
-- 📚 **Instructor:** Currently teaching JavaScript at CodeYetu
-- 🧪 **Side Projects:** Sudoku Solver (Python), Next.js gallery system, automation tools  
-- 🌐 Portfolio: **https://jnrdev-paulmaina.netlify.app/**
-- 📧 Reach me: **003paulmaina@gmail.com**
+- 🎓 **BSc. Information Technology (JKUAT)**  
+- 👨‍🏫 **JavaScript Instructor at CodeYetu**  
+- 🔐 Cybersecurity: TryHackMe, CTFs, IBM & Cisco certs  
+- 🛠 Building real-world applications with **Python, JavaScript, Node.js, and modern JS frameworks**  
+- 🤝 Open to backend roles, full-stack roles & startup MVPs  
+- 🧠 Currently exploring **blockchain development & Solidity**
 
 ---
 
-## 🌍 Connect with Me
+# 🧰 Tech Stack
 
+## 🖥️ **Languages**
 <p align="left">
-  <a href="https://instagram.com/miista_maina" target="_blank">
-    <img src="https://skillicons.dev/icons?i=instagram" width="40" />
-  </a>
-  <a href="https://linkedin.com/in/paul-ngaruiya" target="_blank">
-    <img src="https://skillicons.dev/icons?i=linkedin" width="40" />
-  </a>
-</p>
-
----
-
-## 🛠 Tech Stack (Professional & Updated)
-
-### **Languages**
-<p>
-  <img src="https://skillicons.dev/icons?i=python" width="45"/>
-  <img src="https://skillicons.dev/icons?i=javascript" width="45"/>
-  <img src="https://skillicons.dev/icons?i=typescript" width="45"/>
-  <img src="https://skillicons.dev/icons?i=c" width="45"/>
-  <img src="https://skillicons.dev/icons?i=php" width="45"/>
-  <img src="https://skillicons.dev/icons?i=cs" width="45"/>
-  <img src="https://skillicons.dev/icons?i=dotnet" width="45"/>
-  <img src="https://skillicons.dev/icons?i=vb" width="45" alt="VB.NET"/>
-</p>
-
-### **Backend & Frameworks**
-<p>
-  <img src="https://skillicons.dev/icons?i=nodejs" width="45"/>
-  <img src="https://skillicons.dev/icons?i=django" width="45"/>
-  <img src="https://skillicons.dev/icons?i=flask" width="45"/>
-  <img src="https://skillicons.dev/icons?i=express" width="45"/>
-</p>
-
-### **Frontend & UI**
-<p>
-  <img src="https://skillicons.dev/icons?i=react" width="45"/>
-  <img src="https://skillicons.dev/icons?i=html" width="45"/>
-  <img src="https://skillicons.dev/icons?i=css" width="45"/>
-  <img src="https://skillicons.dev/icons?i=bootstrap" width="45"/>
-</p>
-
-### **Databases**
-<p>
-  <img src="https://skillicons.dev/icons?i=mysql" width="45"/>
-  <img src="https://skillicons.dev/icons?i=mongodb" width="45"/>
-</p>
-
-### **Tools & OS**
-<p>
-  <img src="https://skillicons.dev/icons?i=git" width="45"/>
-  <img src="https://skillicons.dev/icons?i=linux" width="45"/>
-  <img src="https://skillicons.dev/icons?i=arduino" width="45"/>
-  <img src="https://skillicons.dev/icons?i=vscode" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/dot-net/dot-net-original.svg" width="45"/>
 </p>
 
 ---
 
-## 🧠 Cybersecurity Progress
-<img src="https://tryhackme-badges.s3.amazonaws.com/crypticmaina.png" alt="TryHackMe Badge"/>
-
----
-
-## 📊 GitHub Stats
-
+## ⚙️ **Frameworks & Backend**
 <p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mainangaruiya&layout=compact&theme=dark" height="180px" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true&theme=dark" height="180px" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mainangaruiya&theme=dark" height="180px" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/django/django-plain.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/graphql/graphql-plain.svg" width="45"/>
 </p>
 
 ---
 
-## 🏆 GitHub Achievements  
+## 🗄️ **Databases**
 <p align="left">
-  <img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya&theme=onedark&row=1" />
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" width="45"/>
 </p>
+
+---
+
+## 🔧 **DevOps, Cloud & Tools**
+<p align="left">
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/apache/apache-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bash/bash-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/ubuntu/ubuntu-plain.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vercel/vercel-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/netlify/netlify-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/chrome/chrome-original.svg" width="45"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postman/postman-original.svg" width="45"/>
+</p>
+
+---
+
+# 🔐 Cybersecurity & Linux Skills
+
+- TryHackMe & CTF participation  
+- Network security, reconnaissance, OSINT  
+- Linux systems administration  
+- Bash scripting & automation  
+- Secure API development (JWT / OAuth)  
+- Vulnerability scanning & basic pentesting  
+
+---
+
+# 📊 GitHub Stats  
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mainangaruiya&layout=compact&theme=tokyonight" height="160"/>
+</p>
+
+---
+
+# 📫 Contact Me  
+- ✉ **mainangaruiya17@gmail.com**  
+- 🌍 Portfolio: **https://jnrdev-paulmaina.netlify.app**  
+- 💼 LinkedIn: **https://www.linkedin.com/in/paul-ngaruiya**
+
+---
+
+⭐ _Thanks for visiting my profile! Feel free to explore my repos._  
