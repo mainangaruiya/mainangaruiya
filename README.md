@@ -1,106 +1,105 @@
 <h1 align="center">Hi 👋, I'm Maina Ngaruiya</h1>
-<h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast • Problem Solver</h3>
-
-<p align="center">
-  <img src="https://github.com/mainangaruiya/mainangaruiya/assets/100405059/80fffde2-4519-458f-b87c-3bb424eccac4" width="250"/>
-</p>
+<h3 align="center">Full-Stack Developer | Cybersecurity Enthusiast | Backend-Focused Engineer</h3>
 
 ---
 
-## 🚀 About Me  
-- 🔭 Currently building **full-stack projects** + contributing to **startup products**  
-- 🌱 Learning **by building real-world applications**  
-- 👯 Open to collaborating on **backend projects & startup MVPs**  
-- 🤝 Seeking help with **Solidity & blockchain dev**  
-- 💬 Ask me about **Python, JavaScript, C, Node.js, Linux, Cybersecurity**  
-- 🧑‍💻 IT background — **JKUAT BSc IT graduate**  
-- 🛡 Cybersecurity: **TryHackMe**, CTFs, IBM & Cisco certifications  
-- 🏢 Currently teaching **JavaScript at CodeYetu**  
-- 🧩 Side Projects: Sudoku Solver (Python), Next.js gallery system, automation tools  
-- 🌐 Portfolio: **https://jnrdev-paulmaina.netlify.app/**  
-- 📫 Reach me: **003paulmaina@gmail.com**
+## 🚀 About Me
+
+- 🎯 Passionate about building **real-world applications**
+- 🧠 Always learning through **projects & experimentation**
+- 👨‍💻 Open to collaborating on **backend systems, startup MVPs, and automation tools**
+- 🧩 Seeking help with **Solidity & blockchain development**
+- 💬 Ask me about **Python, JavaScript, TypeScript, C, Node.js, Linux, Cybersecurity**
+- 🎓 **IT Background:** JKUAT — BSc in Information Technology  
+- 🛡️ Cybersecurity: TryHackMe, CTFs, IBM & Cisco certifications  
+- 📚 **Instructor:** Currently teaching JavaScript at CodeYetu
+- 🧪 **Side Projects:** Sudoku Solver (Python), Next.js gallery system, automation tools  
+- 🌐 Portfolio: **https://jnrdev-paulmaina.netlify.app/**
+- 📧 Reach me: **003paulmaina@gmail.com**
 
 ---
 
-## 🌐 Connect with Me  
+## 🌍 Connect with Me
+
 <p align="left">
   <a href="https://instagram.com/miista_maina" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" height="30" width="40" />
+    <img src="https://skillicons.dev/icons?i=instagram" width="40" />
   </a>
-  <a href="https://www.linkedin.com/in/paul-maina-ngaruiya" target="_blank">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" height="30" width="40" />
+  <a href="https://linkedin.com/in/paul-ngaruiya" target="_blank">
+    <img src="https://skillicons.dev/icons?i=linkedin" width="40" />
   </a>
 </p>
 
 ---
 
-## 🛠 Tech Stack
+## 🛠 Tech Stack (Professional & Updated)
 
 ### **Languages**
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" width="40"/>
+  <img src="https://skillicons.dev/icons?i=python" width="45"/>
+  <img src="https://skillicons.dev/icons?i=javascript" width="45"/>
+  <img src="https://skillicons.dev/icons?i=typescript" width="45"/>
+  <img src="https://skillicons.dev/icons?i=c" width="45"/>
+  <img src="https://skillicons.dev/icons?i=php" width="45"/>
+  <img src="https://skillicons.dev/icons?i=cs" width="45"/>
+  <img src="https://skillicons.dev/icons?i=dotnet" width="45"/>
+  <img src="https://skillicons.dev/icons?i=vb" width="45" alt="VB.NET"/>
 </p>
 
 ### **Backend & Frameworks**
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="40"/>
-  <img src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-icon.svg" width="40"/>
+  <img src="https://skillicons.dev/icons?i=nodejs" width="45"/>
+  <img src="https://skillicons.dev/icons?i=django" width="45"/>
+  <img src="https://skillicons.dev/icons?i=flask" width="45"/>
+  <img src="https://skillicons.dev/icons?i=express" width="45"/>
 </p>
 
-### **Frontend & Styling**
+### **Frontend & UI**
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg" width="40"/>
+  <img src="https://skillicons.dev/icons?i=react" width="45"/>
+  <img src="https://skillicons.dev/icons?i=html" width="45"/>
+  <img src="https://skillicons.dev/icons?i=css" width="45"/>
+  <img src="https://skillicons.dev/icons?i=bootstrap" width="45"/>
 </p>
 
 ### **Databases**
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="40"/>
+  <img src="https://skillicons.dev/icons?i=mysql" width="45"/>
+  <img src="https://skillicons.dev/icons?i=mongodb" width="45"/>
 </p>
 
 ### **Tools & OS**
 <p>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="40"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" width="40"/>
+  <img src="https://skillicons.dev/icons?i=git" width="45"/>
+  <img src="https://skillicons.dev/icons?i=linux" width="45"/>
+  <img src="https://skillicons.dev/icons?i=arduino" width="45"/>
+  <img src="https://skillicons.dev/icons?i=vscode" width="45"/>
 </p>
 
 ---
 
-## 🧠 TryHackMe Progress  
+## 🧠 Cybersecurity Progress
 <img src="https://tryhackme-badges.s3.amazonaws.com/crypticmaina.png" alt="TryHackMe Badge"/>
 
 ---
 
-## 📊 GitHub Stats  
-<p>
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=mainangaruiya&show_icons=true&layout=compact" />
+## 📊 GitHub Stats
+
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=mainangaruiya&layout=compact&theme=dark" height="180px" />
 </p>
 
-<p>
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true" />
+<p align="left">
+  <img src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true&theme=dark" height="180px" />
 </p>
 
-<p>
-  <img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=mainangaruiya" />
-</p>
-
----
-
-## 🏆 Trophies  
-<p>
-  <img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya&theme=dark_lover" />
+<p align="left">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=mainangaruiya&theme=dark" height="180px" />
 </p>
 
 ---
 
-## ⚡ Fun Facts  
-- 🔥 I love rollerblading, hiking & rollball  
-- 🎮 I enjoy CTFs & cybersecurity challenges  
-- 🧩 I solve problems by coding them out  
-- 💡 “Build → Break → Fix → Improve” is my workflow  
+## 🏆 GitHub Achievements  
+<p align="left">
+  <img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya&theme=onedark&row=1" />
+</p>
