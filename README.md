@@ -16,7 +16,7 @@
 - 🔐 Cybersecurity: TryHackMe, CTFs, IBM & Cisco certs  
 - 🛠 Building real-world applications with **Python, JavaScript, Node.js, and modern JS frameworks**  
 - 🤝 Open to backend roles, full-stack roles & startup MVPs  
-- 🧠 Currently exploring **blockchain development & Solidity**
+- 🧠 Currently exploring **blockchain development & Solidity*
 
 ---
 
