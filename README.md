@@ -93,7 +93,7 @@
 ---
 
 # 📫 Contact Me  
-- ✉ **mainangaruiya17@gmail.com**  
+- ✉ **003paulmian@gmail.com**  
 - 🌍 Portfolio: **https://jnrdev-paulmaina.netlify.app**  
 - 💼 LinkedIn: **https://www.linkedin.com/in/paul-ngaruiya**
 
