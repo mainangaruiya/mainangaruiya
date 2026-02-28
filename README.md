@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Paul Maina Ngaruiya</h1>
+<h1 align="center">Hi 👋, I'm Paul Maina Ngaruiya </h1>
 <h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast • JavaScript Instructor</h3>
 
 <p align="center">
