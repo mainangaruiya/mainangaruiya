@@ -83,25 +83,6 @@
 </p>
 
 ---
-
-# 🔐 Cybersecurity & Linux Skills
-
-* TryHackMe & CTF participation
-* Network security, reconnaissance, OSINT
-* Linux systems administration
-* Bash scripting & automation
-* Secure API development (JWT / OAuth)
-* Vulnerability scanning & basic pentesting
-
----
-
-# 📫 Contact Me
-
-* ✉ **[003paulmiana@gmail.com](mailto:003paulmiana@gmail.com)**
-* 🌍 Portfolio: **https://jnrdev-paulmaina.netlify.app**
-* 💼 LinkedIn: **https://www.linkedin.com/in/paul-ngaruiya**
-
----
 # 📊 GitHub Statistics
 
 <p align="center">
