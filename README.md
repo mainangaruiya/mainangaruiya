@@ -89,24 +89,14 @@
   <img src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true&theme=tokyonight" height="160"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=mainangaruiya&theme=tokyonight" height="160"/>
 </p>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mainangaruiya&layout=compact&theme=tokyonight" height="160"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mainangaruiya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00bfff&text_color=ffffff&langs_count=8"/>
 </p>
 
 ---
 ---
 
 # 🏆 Achievements & Activity
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=mainangaruiya&theme=darkhub&no-frame=true&row=1&column=6"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=mainangaruiya&theme=github-compact"/>
-</p>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=mainangaruiya&label=Profile%20Views&color=0e75b6&style=flat"/>
 </p>
