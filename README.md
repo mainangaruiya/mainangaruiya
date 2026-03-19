@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Paul Maina Ngaruiya </h1>
-<h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast • JavaScript Instructor</h3>
+<h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast •React native-developer </h3>
 
 <p align="center">
   <a href="https://jnrdev-paulmaina.netlify.app">🌐 Portfolio</a> •
