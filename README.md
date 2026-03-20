@@ -94,12 +94,7 @@
 </p>
 
 ---
----
 
-# 🏆 Achievements & Activity
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=mainangaruiya&label=Profile%20Views&color=0e75b6&style=flat"/>
-</p>
 
 ---
 
