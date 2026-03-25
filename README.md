@@ -92,10 +92,4 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mainangaruiya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00bfff&text_color=ffffff&langs_count=8"/>
 </p>
 
----
-
-
----
-
-
 ⭐ *Thanks for visiting my profile! Feel free to explore my repos.*
