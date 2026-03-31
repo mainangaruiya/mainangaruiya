@@ -19,7 +19,6 @@
 * 🧠 Currently exploring **Blockchain Development & Solidity**
 
 ---
-
 # 🧰 Tech Stack
 
 ## 🖥️ **Languages**
