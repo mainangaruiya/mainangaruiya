@@ -1,4 +1,8 @@
-<h1 align="center">Hi 👋, I'm Paul Maina Ngaruiya </h1>
+<h1 align="center">
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=30&duration=3500&pause=1000&color=00BFFF&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Paul+Maina+Ngaruiya" alt="Typing SVG" />
+  </a>
+</h1>
 <h3 align="center">Full-Stack Developer • Cybersecurity Enthusiast • JavaScript Instructor</h3>
 
 <p align="center">
