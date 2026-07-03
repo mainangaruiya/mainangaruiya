@@ -100,13 +100,15 @@
 </p>
 
 ---
-# 📊 GitHub Statistics
+# 📊 GitHub Stats
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=mainangaruiya&show_icons=true&theme=tokyonight" height="160"/>
-  <img src="https://streak-stats.demolab.com/?user=mainangaruiya&theme=tokyonight" height="160"/>
+  <img src="https://img.shields.io/github/followers/mainangaruiya?label=Followers&style=for-the-badge&color=00BFFF" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https://api.github.com/users/mainangaruiya&label=Public%20Repos&query=public_repos&style=for-the-badge&color=7FFFD4" />
 </p>
+
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=mainangaruiya&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00bfff&text_color=ffffff&langs_count=8"/>
+  📌 <a href="https://github.com/mainangaruiya?tab=repositories">Browse all repositories</a>
 </p>
 
 ⭐ *Thanks for visiting my profile! Feel free to explore my repos.*
