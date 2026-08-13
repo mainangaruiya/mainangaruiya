@@ -20,7 +20,7 @@
 ## 🚀 About Me
 
 * 🎓 **BSc. Information Technology (JKUAT)**
-* 👨‍🏫 **JavaScript Instructor at CodeYetu**
+* 👨‍🏫 **Webdev Instructor at CodeYetu**
 * 🔐 Cybersecurity: TryHackMe, CTFs, IBM & Cisco certs
 * 🛠 Building real-world applications with **Python, JavaScript, Node.js, React & React Native**
 * 🤖 Designing AI-powered workflow automation (n8n, LLM-driven document & invoice pipelines)
