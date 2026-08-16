@@ -1,0 +1,115 @@
+/* Work Page Styles */
+.work-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg);
+}
+
+.work-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.work-header h1 {
+    margin-bottom: var(--space-md);
+}
+
+.work-header p {
+    font-size: 1.1rem;
+    color: rgba(17, 20, 23, 0.7);
+    margin-bottom: 0;
+}
+
+/* Case Studies */
+.case-study {
+    margin-bottom: var(--space-2xl);
+    padding-bottom: var(--space-2xl);
+    border-bottom: 1px solid rgba(36, 81, 255, 0.1);
+}
+
+.case-study:last-child {
+    border-bottom: none;
+}
+
+.case-study-header {
+    margin-bottom: var(--space-lg);
+}
+
+.case-study-header h2 {
+    margin-bottom: var(--space-sm);
+}
+
+.case-study-subtitle {
+    font-size: 1.1rem;
+    color: var(--signal-blue);
+    margin-bottom: 0;
+}
+
+.case-study-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-lg);
+}
+
+.case-study-image-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(36, 81, 255, 0.08);
+    border-radius: 8px;
+    border: 2px dashed rgba(36, 81, 255, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(17, 20, 23, 0.4);
+    font-size: 0.9rem;
+    text-align: center;
+    padding: var(--space-md);
+}
+
+.case-study-details section {
+    margin-bottom: var(--space-lg);
+}
+
+.case-study-details h3 {
+    font-size: 1.1rem;
+    margin-bottom: var(--space-sm);
+}
+
+.case-study-details p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.case-study-details ul {
+    margin-left: var(--space-md);
+    margin-bottom: 0;
+}
+
+.case-study-details li {
+    margin-bottom: var(--space-sm);
+    font-size: 0.95rem;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    margin-bottom: 0;
+}
+
+.case-study-cta {
+    text-align: center;
+    padding-top: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+    .case-study-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .case-study-image-placeholder {
+        height: 200px;
+    }
+}

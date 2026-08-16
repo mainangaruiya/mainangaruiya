@@ -1,0 +1,94 @@
+/* Contact Page Styles */
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg);
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.contact-header h1 {
+    margin-bottom: 0;
+}
+
+.contact-content {
+    display: grid;
+    gap: var(--space-2xl);
+}
+
+.contact-message {
+    background-color: rgba(36, 81, 255, 0.05);
+    padding: var(--space-lg);
+    border-radius: 8px;
+    border-left: 4px solid var(--signal-blue);
+}
+
+.contact-message p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+.contact-message ul {
+    margin-left: var(--space-md);
+    margin-top: var(--space-md);
+}
+
+.contact-list li {
+    margin-bottom: var(--space-sm);
+    font-size: 0.95rem;
+}
+
+/* Contact Methods */
+.contact-methods {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-lg);
+}
+
+.contact-method {
+    background-color: rgba(15, 184, 168, 0.05);
+    padding: var(--space-md);
+    border-radius: 8px;
+    border-top: 2px solid var(--signal-teal);
+}
+
+.contact-method h3 {
+    font-size: 1rem;
+    margin-bottom: var(--space-sm);
+}
+
+.contact-method a {
+    color: var(--signal-blue);
+    font-weight: 500;
+    word-break: break-all;
+}
+
+.contact-method a:hover {
+    text-decoration: underline;
+}
+
+/* Booking */
+.contact-booking {
+    text-align: center;
+    padding: var(--space-xl);
+    background-color: rgba(36, 81, 255, 0.08);
+    border-radius: 8px;
+}
+
+.contact-booking h3 {
+    margin-bottom: var(--space-md);
+}
+
+.contact-booking p {
+    margin-bottom: var(--space-lg);
+    color: rgba(17, 20, 23, 0.7);
+}
+
+@media (max-width: 768px) {
+    .contact-methods {
+        grid-template-columns: 1fr;
+    }
+}

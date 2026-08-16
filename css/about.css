@@ -1,0 +1,139 @@
+/* About Page Styles */
+.about-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--space-xl) var(--space-lg);
+}
+
+.about-header {
+    text-align: center;
+    margin-bottom: var(--space-2xl);
+}
+
+.about-header h1 {
+    margin-bottom: 0;
+}
+
+/* Bio Section */
+.bio-section {
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    gap: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+    align-items: start;
+}
+
+.bio-photo-placeholder {
+    width: 100%;
+    height: 300px;
+    background-color: rgba(36, 81, 255, 0.1);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(17, 20, 23, 0.4);
+    text-align: center;
+    padding: var(--space-md);
+    font-size: 0.9rem;
+}
+
+.bio-text h2 {
+    margin-bottom: var(--space-md);
+}
+
+.bio-text p {
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+/* Certifications */
+.certifications-section {
+    margin-bottom: var(--space-2xl);
+}
+
+.certifications-section h2 {
+    margin-bottom: var(--space-lg);
+}
+
+.cert-strip {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-md);
+}
+
+.cert-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: var(--space-md);
+    background-color: rgba(36, 81, 255, 0.05);
+    border-left: 3px solid var(--signal-blue);
+    border-radius: 4px;
+}
+
+.cert-icon {
+    color: var(--signal-teal);
+    font-weight: 700;
+}
+
+.cert-name {
+    font-weight: 500;
+    font-size: 0.95rem;
+}
+
+/* Skills */
+.skills-section {
+    margin-bottom: var(--space-2xl);
+}
+
+.skills-section h2 {
+    margin-bottom: var(--space-lg);
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: var(--space-lg);
+}
+
+.skill-group h3 {
+    font-size: 1rem;
+    margin-bottom: var(--space-md);
+    color: var(--signal-blue);
+}
+
+.skill-group ul {
+    margin-left: var(--space-md);
+}
+
+.skill-group li {
+    margin-bottom: var(--space-sm);
+    font-size: 0.95rem;
+    color: rgba(17, 20, 23, 0.8);
+}
+
+/* Contact CTA */
+.contact-cta {
+    text-align: center;
+    padding: var(--space-xl);
+    background-color: rgba(36, 81, 255, 0.05);
+    border-radius: 8px;
+}
+
+.contact-cta h2 {
+    margin-bottom: var(--space-md);
+}
+
+.contact-cta p {
+    margin-bottom: var(--space-lg);
+}
+
+@media (max-width: 768px) {
+    .bio-section {
+        grid-template-columns: 1fr;
+    }
+    
+    .bio-photo-placeholder {
+        height: 250px;
+    }
+}
