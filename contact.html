@@ -3,13 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact — Paul Ngaruiya</title>
+    <title>Contact: Hire Me for Automation or Quant Work — Paul Ngaruiya</title>
+    <meta name="description" content="Get in touch about n8n workflow design, FastAPI backend architecture, quantitative research, or full-stack builds. Available for freelance, contract, and consulting.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Contact: Hire Me for Automation or Quant Work — Paul Ngaruiya">
+    <meta property="og:description" content="Available for n8n workflow design, FastAPI architecture, alpha research, and full-stack builds. Send a message or email directly.">
+    <meta property="og:image" content="https://mainangaruiya.github.io/mainangaruiya/og-image.png">
+    <meta property="og:url" content="https://mainangaruiya.github.io/mainangaruiya/contact.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Contact: Hire Me for Automation or Quant Work — Paul Ngaruiya">
+    <meta name="twitter:description" content="Available for n8n workflow design, FastAPI architecture, alpha research, and full-stack builds. Send a message or email directly.">
+    <meta name="twitter:image" content="https://mainangaruiya.github.io/mainangaruiya/og-image.png">
+
+    <!-- Favicon (relative paths — site lives at /mainangaruiya/) -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/theme.css">
     <link rel="stylesheet" href="css/contact.css">
+
+    <!-- CLOUDFLARE ANALYTICS SCRIPT GOES HERE -->
 </head>
 <body>
     <nav class="nav" role="navigation">
@@ -41,7 +63,39 @@
                 </ul>
             </div>
 
+            <!-- Formspree form. Replace YOUR_FORM_ID in the action below with the
+                 endpoint from formspree.io — nothing else needs to change. -->
+            <div class="contact-form-wrap">
+                <h2>Send a message</h2>
+                <form id="contact-form" class="contact-form"
+                      action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+                    <div class="form-field">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" autocomplete="name" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" autocomplete="email" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="6" required></textarea>
+                    </div>
+
+                    <!-- Honeypot: hidden from humans, bots fill it in. Formspree
+                         silently discards any submission where _gotcha is non-empty. -->
+                    <div class="form-honeypot" aria-hidden="true">
+                        <label for="_gotcha">Leave this field empty</label>
+                        <input type="text" id="_gotcha" name="_gotcha" tabindex="-1" autocomplete="off">
+                    </div>
+
+                    <button type="submit" class="btn btn-secondary form-submit">Send message</button>
+                    <p class="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+
             <div class="contact-methods">
+                <p class="contact-methods-intro">Prefer to reach me directly? These all still work.</p>
                 <div class="contact-method">
                     <h3>Email</h3>
                     <a href="mailto:paulngaruiya@gmail.com">paulngaruiya@gmail.com</a>
@@ -73,5 +127,77 @@
             </div>
         </div>
     </footer>
+
+    <script>
+    (function () {
+        var form = document.getElementById('contact-form');
+        if (!form) return;
+
+        var button = form.querySelector('.form-submit');
+        var status = form.querySelector('.form-status');
+        var buttonLabel = button.textContent;
+
+        function setStatus(message, kind) {
+            status.textContent = message;
+            status.className = 'form-status is-' + kind;
+        }
+
+        function reset() {
+            button.disabled = false;
+            button.textContent = buttonLabel;
+        }
+
+        form.addEventListener('submit', function (event) {
+            event.preventDefault();
+            if (button.disabled) return;
+
+            // form.elements[...] not form.name — HTMLFormElement.name shadows the field.
+            var name = form.elements.name.value.trim();
+            var email = form.elements.email.value.trim();
+            var message = form.elements.message.value.trim();
+
+            if (!name || !email || !message) {
+                setStatus('Please fill in your name, email, and a message.', 'error');
+                return;
+            }
+            if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+                setStatus('That email address doesn’t look right.', 'error');
+                return;
+            }
+            if (form.action.indexOf('YOUR_FORM_ID') !== -1) {
+                setStatus('Form not connected yet — add your Formspree endpoint to the form action.', 'error');
+                return;
+            }
+
+            button.disabled = true;
+            button.textContent = 'Sending…';
+            setStatus('Sending your message…', 'pending');
+
+            fetch(form.action, {
+                method: 'POST',
+                headers: { 'Accept': 'application/json' },
+                body: new FormData(form)
+            }).then(function (response) {
+                return response.json().catch(function () { return {}; })
+                    .then(function (data) { return { ok: response.ok, data: data }; });
+            }).then(function (result) {
+                if (result.ok) {
+                    form.reset();
+                    button.textContent = 'Message sent';
+                    setStatus('Thanks — your message is through. I’ll reply within a day or two.', 'success');
+                    return;
+                }
+                var detail = result.data && result.data.errors
+                    ? result.data.errors.map(function (e) { return e.message; }).join(' ')
+                    : '';
+                setStatus(detail || 'Something went wrong sending that. Please email me directly instead.', 'error');
+                reset();
+            }).catch(function () {
+                setStatus('Couldn’t reach the server. Check your connection, or email me directly.', 'error');
+                reset();
+            });
+        });
+    })();
+    </script>
 </body>
 </html>

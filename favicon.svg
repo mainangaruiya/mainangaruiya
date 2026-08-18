@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#111417"/>
+  <text x="32" y="43" font-family="'Space Grotesk', 'Inter', system-ui, sans-serif"
+        font-size="30" font-weight="700" fill="#F7F7F5" text-anchor="middle">PN</text>
+  <rect x="14" y="49" width="36" height="3" rx="1.5" fill="#2451FF"/>
+</svg>

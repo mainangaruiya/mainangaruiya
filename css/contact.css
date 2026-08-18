@@ -41,11 +41,117 @@
     font-size: 0.95rem;
 }
 
+/* Contact Form */
+.contact-form-wrap h2 {
+    margin-bottom: var(--space-lg);
+}
+
+.contact-form {
+    display: grid;
+    gap: var(--space-md);
+}
+
+.form-field {
+    display: grid;
+    gap: var(--space-xs);
+}
+
+.form-field label {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-field input,
+.form-field textarea {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    color: var(--ink);
+    background-color: var(--paper);
+    padding: 0.75rem var(--space-sm);
+    border: 2px solid rgba(17, 20, 23, 0.15);
+    border-radius: 4px;
+    transition: border-color 0.2s ease;
+    width: 100%;
+}
+
+.form-field textarea {
+    resize: vertical;
+    line-height: 1.6;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    outline: none;
+    border-color: var(--signal-blue);
+}
+
+/* Honeypot: off-screen rather than display:none, which some bots detect */
+.form-honeypot {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.form-submit {
+    justify-self: start;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 1rem;
+}
+
+.form-submit:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+}
+
+/* Status message — hidden until JS sets a state class */
+.form-status {
+    margin-bottom: 0;
+    padding: 0;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.form-status.is-pending,
+.form-status.is-success,
+.form-status.is-error {
+    padding: var(--space-sm);
+    border-radius: 4px;
+    border-left: 4px solid;
+}
+
+.form-status.is-pending {
+    color: rgba(17, 20, 23, 0.7);
+    background-color: rgba(17, 20, 23, 0.05);
+    border-left-color: rgba(17, 20, 23, 0.3);
+}
+
+.form-status.is-success {
+    color: #0a7469;
+    background-color: rgba(15, 184, 168, 0.12);
+    border-left-color: var(--signal-teal);
+}
+
+.form-status.is-error {
+    color: #a32020;
+    background-color: rgba(163, 32, 32, 0.08);
+    border-left-color: #a32020;
+}
+
 /* Contact Methods */
 .contact-methods {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: var(--space-lg);
+}
+
+.contact-methods-intro {
+    grid-column: 1 / -1;
+    margin-bottom: 0;
+    color: rgba(17, 20, 23, 0.7);
 }
 
 .contact-method {
