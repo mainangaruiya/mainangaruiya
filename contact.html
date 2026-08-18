@@ -63,8 +63,8 @@
                 </ul>
             </div>
 
-            <!-- Formspree form. Replace YOUR_FORM_ID in the action below with the
-                 endpoint from formspree.io — nothing else needs to change. -->
+            <!-- Formspree form, wired to endpoint xkjwpjjg. Submissions are sent by
+                 fetch() in the script at the bottom of this page — no redirect. -->
             <div class="contact-form-wrap">
                 <h2>Send a message</h2>
                 <form id="contact-form" class="contact-form"
@@ -164,11 +164,6 @@
                 setStatus('That email address doesn’t look right.', 'error');
                 return;
             }
-            if (form.action.indexOf('YOUR_FORM_ID') !== -1) {
-                setStatus('Form not connected yet — add your Formspree endpoint to the form action.', 'error');
-                return;
-            }
-
             button.disabled = true;
             button.textContent = 'Sending…';
             setStatus('Sending your message…', 'pending');
