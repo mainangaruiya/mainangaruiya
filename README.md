@@ -80,7 +80,7 @@
 
 <p align="left">
   <img src="https://cdn.simpleicons.org/n8n/FF6D5A" title="n8n" width="42"/>
-  <img src="https://cdn.simpleicons.org/openai/412991" title="OpenAI" width="42"/>
+  <img src="https://api.iconify.design/logos:openai-icon.svg" title="OpenAI" width="42"/>
   <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" title="Gemini API" width="42"/>
   <img src="https://cdn.simpleicons.org/langchain/1C3C3C" title="LangChain" width="42"/>
 </p>
@@ -104,6 +104,12 @@
 <br/>
 
 ## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://img.shields.io/github/followers/mainangaruiya?label=Followers&style=for-the-badge&color=00BFFF&logo=github" />
+  <img src="https://img.shields.io/github/stars/mainangaruiya?label=Total%20Stars&style=for-the-badge&color=7FFFD4&logo=github" />
+  <img src="https://img.shields.io/badge/Public%20Repos-100%2B-00BFFF?style=for-the-badge&logo=github" />
+</p>
 
 <div align="center">
 
