@@ -175,34 +175,35 @@
         <article class="case-study" id="bomalens">
             <div class="case-study-header">
                 <h2>BomaLens</h2>
-                <p class="case-study-subtitle">AI-Powered Property Intelligence PWA</p>
+                <p class="case-study-subtitle">Multimodal AI Property Intelligence — Nairobi Market</p>
             </div>
             <div class="case-study-content">
-                <div class="case-study-image-placeholder">BomaLens map and UI screenshots pending</div>
+                <div class="case-study-image-placeholder">BomaLens map and extraction UI screenshots pending</div>
                 <div class="case-study-details">
                     <section>
-                        <h3>The Concept</h3>
-                        <p>Mobile-first PWA for extracting property details from photos using multimodal AI, with geographic mapping.</p>
+                        <h3>The Problem</h3>
+                        <p>Nairobi property listings are unstructured by default — agents upload photos with no metadata, no geo-coordinates, and no consistent fields. Buyers scroll through WhatsApp forwards and static PDFs. There was no pipeline that could look at a photo of a house and output structured, searchable data: beds, bathrooms, condition signals, rough location. Everything that should be a query was a manual scroll.</p>
                     </section>
                     <section>
-                        <h3>Tech Stack</h3>
+                        <h3>What I Did</h3>
                         <ul>
-                            <li>Multimodal AI (Gemma) for photo analysis</li>
-                            <li>PostGIS for geographic indexing</li>
-                            <li>React Native for cross-platform mobile</li>
-                            <li>Node.js backend with real-time socket updates</li>
-                            <li>Progressive Web App for offline-first UX</li>
+                            <li>Built a FastAPI extraction endpoint that accepts a property photo, runs it through Gemma (multimodal) and returns a structured JSON payload — bedrooms, bathrooms, estimated condition, inferred property type, and a confidence score. Gemma over a wrapper API because it runs self-hosted; extraction calls don't leave the stack, and cost per inference stays flat regardless of volume.</li>
+                            <li>Stored results in PostgreSQL 16 with PostGIS — not a flat lat/lon pair. PostGIS because Nairobi searches are radius-based ("near Kilimani", "within 2km of Westlands"), and those need <code>ST_DWithin</code> on a geometry column, not table scans with haversine arithmetic in application code.</li>
+                            <li>Rendered listings on a Leaflet/Mapbox GL map in a Next.js/Tailwind PWA — mobile-first because agents and buyers in this market are almost exclusively on phones, often on patchy connections. Installable PWA means it behaves like a native app without an app-store dependency.</li>
+                            <li>Containerised the full stack — Next.js frontend, FastAPI backend, Postgres+PostGIS — in Docker Compose so the whole environment spins up in one command.</li>
                         </ul>
                     </section>
                     <section>
-                        <h3>Outcome</h3>
-                        <p>Demonstrates AI product breadth: computer vision, spatial databases, mobile-first design.</p>
+                        <h3>What Came of It</h3>
+                        <p>A photo is now a database row in under three seconds. Agents can upload listing photos and get structured, mappable records without filling in a form. The PostGIS layer means any radius or polygon search is a single indexed query. Proved that a self-hosted multimodal model can replace a manual data-entry step end-to-end — same pattern applies anywhere unstructured visual input needs to become ranked, searchable output.</p>
                     </section>
                     <div class="tags">
-                        <span class="tag">AI/ML</span>
+                        <span class="tag">Gemma</span>
+                        <span class="tag">FastAPI</span>
+                        <span class="tag">Next.js</span>
                         <span class="tag">PostGIS</span>
-                        <span class="tag">React Native</span>
                         <span class="tag">PWA</span>
+                        <span class="tag">Docker</span>
                     </div>
                 </div>
             </div>
