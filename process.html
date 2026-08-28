@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Process: How This Portfolio Stays Current — Paul Ngaruiya</title>
+    <meta name="description" content="How I add new case studies, what's queued next, and the habit that keeps this portfolio from going stale.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Process: How This Portfolio Stays Current — Paul Ngaruiya">
+    <meta property="og:description" content="How I add new case studies, what's queued next, and the habit that keeps this portfolio from going stale.">
+    <meta property="og:image" content="https://mainangaruiya.github.io/mainangaruiya/og-image.png">
+    <meta property="og:url" content="https://mainangaruiya.github.io/mainangaruiya/process.html">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Process: How This Portfolio Stays Current — Paul Ngaruiya">
+    <meta name="twitter:description" content="How I add new case studies, what's queued next, and the habit that keeps this portfolio from going stale.">
+    <meta name="twitter:image" content="https://mainangaruiya.github.io/mainangaruiya/og-image.png">
+
+    <!-- Favicon (relative paths — site lives at /mainangaruiya/) -->
+    <link rel="icon" href="favicon.ico" sizes="any">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/theme.css">
+    <link rel="stylesheet" href="css/process.css">
+
+    <!-- CLOUDFLARE ANALYTICS SCRIPT GOES HERE -->
+</head>
+<body>
+    <nav class="nav" role="navigation">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">PN</a>
+            <ul class="nav-links">
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="process-container">
+        <header class="process-header">
+            <h1>Process</h1>
+            <p>How this portfolio stays current after the course ends.</p>
+        </header>
+
+        <!-- Section 1: How I add the next case study -->
+        <section class="process-section" id="adding-case-studies">
+            <h2>How I add the next case study</h2>
+            <ol class="step-list">
+                <li>
+                    Draft in my Claude Project — it already holds my voice, stack, and identity kit (instrument-panel tone, three-beat shape, the one-line claim). Drafting is a short conversation, not a rebuild from scratch each time.
+                </li>
+                <li>
+                    Copy the <code>&lt;article class="case-study"&gt;</code> block from <code>work.html</code> and fill the three beats: <strong>Problem</strong> (what was broken or missing), <strong>What I did</strong> (approach, key decisions, the one call worth explaining), <strong>What came of it</strong> (what it unblocked, what works now, or what it proved).
+                </li>
+                <li>
+                    Drop in a screenshot — swap the <code>case-study-image-placeholder</code> div for an <code>&lt;img class="case-study-image"&gt;</code> tag pointing to a real asset in the repo.
+                </li>
+                <li>
+                    Add a project card to the homepage grid in <code>index.html</code> and wire up the anchor link (<code>work.html#project-id</code>).
+                </li>
+                <li>
+                    Commit and push. GitHub Pages auto-deploys — no build step, no pipeline to maintain.
+                </li>
+            </ol>
+        </section>
+
+        <!-- Section 2: What's next -->
+        <section class="process-section" id="whats-next">
+            <h2>What's next</h2>
+            <div class="next-card">
+                <h3>BomaLens</h3>
+                <p>Gemma-powered property intelligence PWA for the Nairobi market. Stack: Next.js / Tailwind frontend, FastAPI / Python 3.11+ backend, PostgreSQL 16 + PostGIS, Leaflet / Mapbox GL for maps, Docker Compose for deployment. The case study is drafted — it's waiting on a stable build milestone to screenshot and describe accurately. Once that lands, it goes straight in.</p>
+            </div>
+            <p>After that: WorldQuant alpha research gets a sharper write-up with actual signal methodology, not just the current placeholder text.</p>
+        </section>
+
+        <!-- Section 3: Evidence of the habit -->
+        <section class="process-section" id="habit">
+            <h2>Evidence of the habit</h2>
+            <div class="evidence-block">
+                <p class="evidence-note">A recurring reminder is set to revisit and add the BomaLens case study once the build milestone is stable. The site gets updated when there's something real to show — not on a vanity schedule.</p>
+                <!-- INSERT calendar reminder screenshot here -->
+                <div class="screenshot-placeholder" aria-label="Calendar reminder screenshot placeholder">calendar reminder screenshot pending</div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2025 Paul Ngaruiya. Built with HTML, CSS, and focus.</p>
+            <div class="footer-links">
+                <a href="https://github.com/mainangaruiya" target="_blank" rel="noopener">GitHub</a>
+                <a href="https://linkedin.com/in/paulngaruiya" target="_blank" rel="noopener">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
