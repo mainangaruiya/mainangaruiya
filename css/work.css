@@ -67,6 +67,14 @@
     padding: var(--space-md);
 }
 
+.case-study-image {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
 .case-study-details section {
     margin-bottom: var(--space-lg);
 }
@@ -109,7 +117,8 @@
         grid-template-columns: 1fr;
     }
     
-    .case-study-image-placeholder {
+    .case-study-image-placeholder,
+    .case-study-image {
         height: 200px;
     }
 }
