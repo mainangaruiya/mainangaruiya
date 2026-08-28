@@ -59,22 +59,24 @@
 
 .step-list li {
     counter-increment: steps;
-    display: grid;
-    grid-template-columns: 2rem 1fr;
-    gap: var(--space-md);
+    position: relative;
+    padding-left: 2.75rem;
     margin-bottom: var(--space-lg);
     font-size: 0.95rem;
-    line-height: 1.7;
-    align-items: start;
+    line-height: 1.75;
 }
 
 .step-list li::before {
     content: counter(steps);
+    position: absolute;
+    left: 0;
+    top: 0.05em;
     font-family: var(--font-heading);
     font-weight: 700;
     font-size: 0.875rem;
     color: var(--signal-teal);
-    padding-top: 0.1rem;
+    width: 1.75rem;
+    text-align: left;
 }
 
 /* Inline code */
@@ -144,7 +146,6 @@
 
 @media (max-width: 768px) {
     .step-list li {
-        grid-template-columns: 1.5rem 1fr;
-        gap: var(--space-sm);
+        padding-left: 2rem;
     }
 }
