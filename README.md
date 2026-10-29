@@ -80,12 +80,12 @@
 
 <p align="left">
   <img src="https://cdn.simpleicons.org/n8n/FF6D5A" title="n8n" width="42"/>
-  <img src="https://api.iconify.design/logos:slack-icon.svg" title="Slack (n8n node)" width="42"/>
+  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/slack/slack-original.svg" title="Slack (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/telegram/26A5E4" title="Telegram (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/gmail/EA4335" title="Gmail (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/airtable/18BFFF" title="Airtable (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/notion/000000" title="Notion (n8n node)" width="42"/>
-  <img src="https://api.iconify.design/simple-icons:twilio.svg?color=F22F46" title="Twilio (n8n node)" width="42"/>
+  <img src="https://api.iconify.design/simple-icons/twilio.svg" title="Twilio (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/googlesheets/34A853" title="Google Sheets (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/googledrive/4285F4" title="Google Drive (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/whatsapp/25D366" title="WhatsApp (n8n node)" width="42"/>
@@ -93,7 +93,7 @@
   <img src="https://cdn.simpleicons.org/github/181717" title="GitHub (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/jira/0052CC" title="Jira (n8n node)" width="42"/>
   <img src="https://cdn.simpleicons.org/hubspot/FF7A59" title="HubSpot (n8n node)" width="42"/>
-  <img src="https://api.iconify.design/logos:openai-icon.svg" title="OpenAI" width="42"/>
+  <img src="https://api.iconify.design/simple-icons/openai.svg" title="OpenAI" width="42"/>
   <img src="https://cdn.simpleicons.org/googlegemini/8E75B2" title="Gemini API" width="42"/>
   <img src="https://cdn.simpleicons.org/langchain/1C3C3C" title="LangChain" width="42"/>
 </p>
